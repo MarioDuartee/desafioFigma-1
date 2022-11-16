@@ -8,8 +8,7 @@ body {
 
 }
 
-.header-bg,
-.menu {
+.header-bg {
     max-width: 900px;
     margin: auto;
 }
@@ -83,11 +82,18 @@ header {
     background-color: #FFFFFF;
     margin-top: 50px;
     border-radius: 5px;
+    width: 852px;
+    margin: 25px auto;
 }
 
-.menu:last-child {
+.element-main:first-of-type {
+    margin-top: 50px;
+}
+
+.element-main:last-of-type {
     margin-bottom: 50px;
 }
+
 
 
 /*responsive*/
